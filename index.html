@@ -10,7 +10,7 @@
 
   <!-- Header Section -->
   <header>
-    <div class="logo">Logo</div>
+    <div class="logo"><a href="https://fontmeme.com/netflix-font/"><img style="color: aqua;" src="https://fontmeme.com/permalink/251115/8fb731b34ef323a7cee63e0fec078b10.png" alt="netflix-font" border="0"></a></div>
     <nav>
       <a href="#">Home</a>
       <a href="#">Services</a>
@@ -25,34 +25,38 @@
     <div class="hero-text">
       <h1>Revitalize Your Clothes with Expert <span>Laundry Services!</span></h1>
       <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
-      <button class="book-btn">Book a service today!</button>
+       <a href="#container"><button  class="book-btn">Book a service today!</button></a>
     </div>
-    <img src="Screenshot 2025-10-21 042903.png" alt="Laundry Machine">
+    <img src="img/Screenshot 2025-10-21 042903.png" alt="Laundry Machine">
   </section>
 
   <!-- Quality Description Section -->
   <section class="qualities">
     <div class="quality-box">
+      <img src="img/crown_48dp_1F1F1F_FILL0_wght400_GRAD0_opsz48.svg" alt="">
       <h3>Premium Services</h3>
       <p>We offer high-quality cleaning and care for your clothes using eco-friendly products.</p>
     </div>
     <div class="quality-box">
+      <img src="img/support_agent_48dp_1F1F1F_FILL0_wght400_GRAD0_opsz48.svg" alt="">
       <h3>Quick Support</h3>
       <p>Our support team is always available to assist you with your service queries.</p>
     </div>
     <div class="quality-box">
+      <img style="height: 45px;" src="img/shopping_cart_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="">
       <h3>Hassle Free Delivery</h3>
       <p>Timely pickup and delivery to ensure your convenience at every step.</p>
     </div>
     <div class="quality-box">
+      <img src="img/currency_rupee_48dp_1F1F1F_FILL0_wght400_GRAD0_opsz48.svg" alt="">
       <h3>Affordable Prices</h3>
       <p>Quality laundry services at prices that don’t break your budget.</p>
     </div>
   </section>
 
   <!-- Our Services -->
-<div class="container">
-    <h1 class="main-heading">Service Booking & Cart</h1>
+<div id="container"  class="container">
+    <h1 class="main-heading">Service Booking & Cart <img style="height: 35px, ;" src="img/shopping_cart_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24 (1).svg" alt=""></h1>
 
     <div class="grid-layout">
       
@@ -94,7 +98,7 @@
           <form id="booking-form">
             <input type="text" id="fullName" placeholder="Full Name" required class="input-field">
             <input type="email" id="email" placeholder="Email ID" required class="input-field">
-            <input type="tel" id="phone" placeholder="Phone Number" required class="input-field">
+            <input type="tel" id="phone" placeholder="Phone Number" required class="input-field" max="13" min="10">
             <button type="submit" class="book-btn">Book Now</button>
           </form>
           <p id="booking-message" class="booking-message"></p>
@@ -118,7 +122,7 @@
   <footer>
     <div class="footer-content">
       <div class="footer-logo">
-        <h3>Logo</h3>
+        <h3><a href="https://fontmeme.com/netflix-font/"><img style="color: aqua;" src="https://fontmeme.com/permalink/251115/8fb731b34ef323a7cee63e0fec078b10.png" alt="netflix-font" border="0"></a></h3>
         <p>Lorem ipsum dolor sit amet consectetur.</p>
       </div>
       <div class="footer-links">
@@ -147,8 +151,7 @@
     </div>
   </footer>
 
-  <script src="email.js"></script>
   <script src="main.js"></script>
+  <script src="email.js"></script>
 </body>
 </html>
-
