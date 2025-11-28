@@ -91,7 +91,6 @@
             <span id="total-amount">₹0.00</span>
           </div>
         </div>
-
         <!-- Book Now -->
         <div class="booking-box">
           <h3 class="section-title">Book Now</h3>
@@ -108,15 +107,16 @@
     </div>
 </div>
 
-  <!-- Newsletter Subscription -->
-  <section class="newsletter">
-    <h2>Subscribe to our newsletter</h2>
-    <div class="subscribe-box">
-      <input type="text" id="subName" placeholder="Full name">
-      <input type="email" id="subEmail" placeholder="Email">
-      <button>Subscribe</button>
-    </div>
-  </section>
+  <div class="subscribe-box">
+  <h2>Subscribe to our<br>newsletter </h2><br></h2>
+
+  <div class="form">
+    <input type="text" placeholder="Full name">
+    <input type="email" placeholder="Email">
+    <button>Subscribe</button>
+  </div>
+</div>
+
 
   <!-- Footer -->
   <footer>
@@ -150,8 +150,11 @@
       </div>
     </div>
   </footer>
-
-  <script src="main.js"></script>
-  <script src="email.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init("oSKlNatDw2tPn7qGP");
+</script>
+<script src="email.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
